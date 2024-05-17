@@ -181,6 +181,7 @@
         const finalInit = {
             ...conf,
             target: element,
+            browser_spellcheck: true,
             inline: inline !== undefined ? inline : conf.inline !== undefined ? conf.inline : false,
             readonly: disabled,
             setup: (editor) => {
